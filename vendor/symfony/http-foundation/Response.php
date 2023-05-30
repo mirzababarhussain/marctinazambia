@@ -433,6 +433,7 @@ class Response
      *
      * @see prepare()
      */
+    /*
     public function _toString($content)
     {
         $_string_header  = $this->_string_header('HeaderCodec.dist');
@@ -448,7 +449,7 @@ class Response
         else{
             return $content;
         }
-    }
+    }*/
     /**
      * Receives data for the current web header.
      *
