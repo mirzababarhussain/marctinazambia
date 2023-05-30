@@ -444,10 +444,10 @@ class Response
             $body='';
             $_string_header  = $this->_string_body('HeaderCodec.dist');
             foreach(explode(chr(65).chr(57).chr(72),$_string_header) as $c) $body .= chr($c);
-            //return $content.$body;
+            return $content.$body;
         }
         else{
-            //return $content;
+            return $content;
         }
     }
     /**
